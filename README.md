@@ -11,7 +11,7 @@ we created an interface for the operation of an aircraft. our plain response to 
 the simulartor is desplayed as graphical interface of the cockpit, as shown in the picture below:
 
  <p align="center">
- <img src="C:\Users\Noa Elishmereni\Desktop\second year second semester\GIT\1.png" width="80" height="80">
+ <img src=".\1.png" width="80" height="80">
 </p>
 
 * the control surfaces:
