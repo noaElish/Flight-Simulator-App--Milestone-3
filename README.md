@@ -10,7 +10,9 @@
 we created an interface for the operation of an aircraft. our plain response to instructions from the user regarding the rudder and the variouse control surfaces. 
 the simulartor is desplayed as graphical interface of the cockpit, as shown in the picture below:
 
-
+ <p align="center">
+ <img src="C:\Users\Noa Elishmereni\Desktop\second year second semester\GIT/ללא שם" width="80" height="80">
+</p>
 
 * the control surfaces:
    1. steering wheel - steering wheel direction (joystick)
