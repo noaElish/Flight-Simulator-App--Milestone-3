@@ -7,7 +7,8 @@
 
 ### **Basic information**
 * Purpose of this extercise-
-we created 
+we created an interface for the operation of an aircraft. our plain response to instructions from the user regarding the rudder and the variouse control surfaces. 
+
 
 * Links we used for this project:
    * [FlightGear simulator](https://www.flightgear.org/)
