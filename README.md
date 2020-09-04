@@ -19,12 +19,6 @@ the simulartor is desplayed as graphical interface of the cockpit, as shown in t
    2. Elevator - rudder
    3. Aileron - balances
    4. throttle - throttle
-   
-* Links we used for this project:
-   * [FlightGear simulator](https://www.flightgear.org/)
-   * the two lines we inserted the flight gear:
-     "--telnet=socket,in,10,127.0.0.1,5402,tcp"
-     "--generic=socket,out,10,127.0.0.1,5400,tcp,generic_small"
 
 * Files we used for this project:
    * Fly.txt
