@@ -3,11 +3,11 @@
 
 #### Creators: 
 ##### Shira Turgeman & Noa Elishmereni
-#####  [our GitHub](https://github.com/noaElish/ex3)
+#####  [our GitHub](https://github.com/noaElish/Flight-Simulator-App--Milestone-3)
 
 ### **Basic information**
 * Purpose of this extercise-
-Create code that allows remote control of an aircraft.
+we created 
 
 * Links we used for this project:
    * [FlightGear simulator](https://www.flightgear.org/)
