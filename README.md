@@ -8,8 +8,16 @@
 ### **Basic information**
 * Purpose of this extercise-
 we created an interface for the operation of an aircraft. our plain response to instructions from the user regarding the rudder and the variouse control surfaces. 
+the simulartor is desplayed as graphical interface of the cockpit, as shown in the picture below:
 
 
+
+* the control surfaces:
+   1. steering wheel - steering wheel direction (joystick)
+   2. Elevator - rudder
+   3. Aileron - balances
+   4. throttle - throttle
+   
 * Links we used for this project:
    * [FlightGear simulator](https://www.flightgear.org/)
    * the two lines we inserted the flight gear:
