@@ -14,11 +14,15 @@ the simulartor is desplayed as graphical interface of the cockpit, as shown in t
  <img src=".\1.png" width="500" height="260">
 </p>
 
-* the control surfaces:
-   1. steering wheel - steering wheel direction (joystick)
+* Control surfaces:
+   Joystick:
+   1. Steering wheel - steering wheel direction 
+   can be controlled using right and left keys. 
    2. Elevator - rudder
+    can be controlled using up and down keys. 
+   Sliders:
    3. Aileron - balances
-   4. throttle - throttle
+   4. Throttle - throttle
 
 * Files we used for this project:
    * Fly.txt
