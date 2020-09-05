@@ -33,6 +33,11 @@ to set the direction of the plain, the user can use the four control surfaces as
 
 
 #### **How to use**
-when downloading the code from GitHub, a new zip directory will appear. 
-please open the zip (Extract the code to a new directory that will be used from now).
+1. when downloading the code from GitHub, a new zip directory will appear. 
+please open the zip and Extract the code to a new directory that will be used from now- called "FlightSimulator".
+2. comprass all the file into a zip file called "FlightSimulator".
+3. place the server and bat in the same directory in the same level as the zip called "FlightSimulator".
+4. open the server.
+5. open the bat.
+
 
