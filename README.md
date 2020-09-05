@@ -33,7 +33,7 @@ to set the direction of the plain, the user can use the four control surfaces as
 the programm know to pin the location of the plain every few second- which gives an exact location. 
 
 
-#### **How to use**
+### **How to use**
 1. when downloading the code from GitHub, a new zip directory will appear. 
 please open the zip and Extract the code to a new directory that will be used from now- called "FlightSimulator".
 2. comprass all the file into a zip file called "FlightSimulator"- all except the bat and server.
