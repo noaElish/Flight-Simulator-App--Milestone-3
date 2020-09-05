@@ -14,44 +14,25 @@ the simulartor is desplayed as graphical interface of the cockpit, as shown in t
  <img src=".\1.png" width="500" height="260">
 </p>
 
-* Control surfaces:
+* Four control surfaces:
    * Joystick:
-   1. Steering wheel - steering wheel direction 
+   Steering wheel - steering wheel direction 
    can be controlled using right and left keys. 
-   2. Elevator - rudder
+   Elevator - rudder
     can be controlled using up and down keys. 
    * Sliders:
-   3. Aileron - balances
-   4. Throttle - throttle
+   Aileron - balances
+   Throttle - throttle
 
-* Files we used for this project:
-   * Fly.txt
-   * Generic_small.xml
-
-### **important classes, variables and objects:**
-* Class command-
-   * open data server command
-   * connect control command
-   * define var command
-   * loop command
-   * print command
-   * sleep command
-* Class SymbolTable- holds Three maps:
-   * symbolMap: for the variables objects.
-   * simMap: for the simulator objects.
-   * commandMap: for all the command variable.
    
-### **how does it work?**
-Our program receives a file and breaks it into parts using the **lexer** function. We checked which of the strings were commands, and created a map that holds commands as the key, and a value that is a command variable from Of the right type. 
-  * for example: we inserted the command "open data server" into the map, with a variable "OpenServerCommand" as the value.
-  
-after inserting the map with all the right commands, we started to execute each commnad by turn usuing the **parser** function. for the server and the client, we opened two different threads that runs simultaneously, and two different sockets.
-next, the parser executed all of the variables. for each one, we check the direction of the arrow, and accordingly changes the values in the maps.
-we also payed attention to the loops in the file, and made a command variable that is responsible to take care of such cases.
+### **How does it work?**
+In order to log to our programm, a user needs to insert port and ip on the left side of the screen.
+note that theres is already an ip and port set by default, that can be changed by typing new ones in the boxes.
+if communication is formed sucssesfully- a green light will appear and a new flight will be presented on the map using an airplain pin. 
+to set the direction of the plain, the user can use the four control surfaces as decsribed above.
 
-through the whole run of the programm, we received values from the simulator (using the server socket), and sending value to the simulator (using the client socket). that way, the connection stay open through the whole run.
 
-after wer'e done with the file, the programm prints "done" and we can close the sockets, and the threads.
+#### **How to use**
+when downloading the code from GitHub, a new zip directory will appear. 
+please open the zip (Extract the code to a new directory that will be used from now).
 
-#### **spacial notes- for the coures team**
-when debbuging our programm, we used different printing (to follow the some of the problem when trying to solve it). after finishing debugging, the plane worked fine. we started deleteing the prints, but some of them interfered the programm from reasons we dont know (sence they are only prints for the programmer and not real code realted to the programm), so that we had to keep some of them and print empty srting instead. when running the code you may incounter some of the empty lines. we let the course team know about that.
