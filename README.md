@@ -38,7 +38,8 @@ the programm know to pin the location of the plain every few second- which gives
 please open the zip and Extract the code to a new directory that will be used from now- called "FlightSimulator".
 2. comprass all the file into a zip file called "FlightSimulator"- all except the bat and server.
 3. place the server and bat in the same directory in the same level as the zip called "FlightSimulator".
-4. open the server.
-5. open the bat.
+4. make sure to keep only the zip, server and bat and nothing else but that!
+5. open the server.
+6. open the bat.
 
 
