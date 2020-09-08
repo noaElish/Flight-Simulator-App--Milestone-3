@@ -26,7 +26,8 @@ the simulartor is desplayed as graphical interface of the cockpit, as shown in t
 
    
 ### **How does it work?**
-Download FlightSimulator (Or any other simulator) in the next link- https://flightgear.en.uptodown.com/windows. open the simulator, go to Setting, go to Additional Setting and add the next line: "--telnet=socket,in,10,127.0.0.1,5403,tcp --httpd=8080".
+Download FlightSimulator (Or any other simulator) in the next link- https://flightgear.en.uptodown.com/windows. 
+open the simulator, go to Setting, go to Additional Setting and add the next line: "--telnet=socket,in,10,127.0.0.1,5403,tcp --httpd=8080".
 NOTE! you can choose to use python server. we added a server to this project for your convenience.
 
 In order to log to our programm, a user needs to insert port and ip on the left side of the screen.
