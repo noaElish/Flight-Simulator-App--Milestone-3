@@ -26,6 +26,8 @@ the simulartor is desplayed as graphical interface of the cockpit, as shown in t
 
    
 ### **How does it work?**
+first, download the FlightSimulator programm, using the next link- https://flightgear.en.uptodown.com/windows .
+next f
 In order to log to our programm, a user needs to insert port and ip on the left side of the screen.
 note that theres is already an ip and port set by default, that can be changed by typing new ones in the boxes.
 if communication is formed sucssesfully- a green light will appear and a new flight will be presented on the map using an airplain pin. 
